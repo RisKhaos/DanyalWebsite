@@ -1,0 +1,53 @@
+.contact-me h1{
+    margin: 0 auto 1em auto;
+    color: var(--primary-text-color);
+}
+.contact-me span{
+    color: var(--secondary-text-color);
+    font-size: 1em;
+}
+.contact-me p{
+    margin: 0;
+}
+.socials {
+    display: flex; /* Flexbox for the social icons */
+    gap: 5rem; /* Spacing between icons */
+    margin: 1rem auto 2rem auto;
+    align-items: center;
+    justify-content: center;
+}
+.socials-content{
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    flex-direction: column;
+    display: flex;
+    gap: 1rem;
+    transition: transform 0.2s ease-in-out; /* Add transition for hover effect */
+}
+.socials a{
+    text-decoration: none;
+    color: var(--secondary-text-color);
+    transition: transform 0.2s ease-in-out;
+}
+
+.card1 {
+    padding: 10px;
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    margin: 0;
+    line-height: 0;
+}
+.socials img {
+    width: 4rem; /* Set width for icons */
+    height: 4rem; /* Set height for icons */
+
+  }
+.socials-content:hover {
+    transform: scale(1.1); /* Scale effect on hover */
+    color: cornflowerblue;
+  }
+.socials-content:hover a{
+    color: cornflowerblue;
+    
+  } 

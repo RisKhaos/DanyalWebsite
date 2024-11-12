@@ -1,0 +1,56 @@
+.total-card{
+  padding: 0 20px;
+}
+.card {
+    padding: 20px;
+    border: 2px solid var(--border-color);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.bio {
+    margin-top: 1rem;
+    margin-bottom: 0px;
+}
+.botrow {
+    color: var(--secondary-text-color);
+    justify-content: flex-start;
+
+}
+.botrow img{
+    width: 20px;
+    height: 20px;
+    margin-right: 0.3em ;
+}
+.toprow {
+    display: flex; /* Enables Flexbox */
+    justify-content: space-between; /* Space between elements */
+    align-items: center; /* Center vertically */
+    padding-bottom: 0.5em; /* Add some padding */
+    max-width: 1200px; /* Max width for the row */
+    margin: 0 auto; /* Center the row */
+  }
+  
+.name {
+    margin: 0; /* Remove default margin */
+    font-size: 1.8em; /* Adjust font size as needed */
+  }
+  
+.connects {
+    display: flex; /* Flexbox for the social icons */
+    gap: 1em; /* Spacing between icons */
+  }
+.card1 {
+    padding: 10px;
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    margin: 0;
+    line-height: 0;
+}
+.card1 img {
+    width: 25px; /* Set width for icons */
+    height: 25px; /* Set height for icons */
+    transition: transform 0.2s; /* Add transition for hover effect */
+  }
+.card1 img:hover {
+    transform: scale(1.1); /* Scale effect on hover */
+  }

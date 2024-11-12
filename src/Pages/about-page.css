@@ -1,0 +1,95 @@
+.About-Me{
+    border-bottom: 0.5rem ridge #cfcfcf;
+    margin-bottom: 3em;
+    padding-bottom: 2em;
+    color: var(--primary-text-color);
+}
+.About-Work{
+    margin-bottom: 1.5em;
+    color: var(--primary-text-color);
+}
+.About-Journey{
+    margin-bottom: 4em;
+    color: var(--primary-text-color);
+}
+.About-Page h1{
+    font-size: 2em;
+}
+
+/* Timeline Work Experience*/
+.timeline-work {
+    position: relative;
+    padding-left: 2em; /* Create room for the timeline line and dots */
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+    }
+.timeline-work::after {
+    content: '';
+    position: absolute;
+    width: 0.4rem;  /* Thickness of the vertical line */
+    height: 24rem;  /* Full height of the timeline container */
+    background: #cfcfcf;
+    left: 0.75em;  /* Align with circles */    
+    top: 3.5em;
+    z-index: 0;
+}
+.work-jobs{
+    position: relative;
+    margin: 1rem 0;
+    height: 10rem;
+  }
+/* Timeline Work Experience CIRCLES Style*/
+.work-circle {
+    width: 20px;  
+    height: 20px;
+    background-color: #cfcfcf;  
+    border-radius: 50%;
+    position: absolute;
+    left: -32px;
+    z-index: 1;
+}
+.work-inner-circle {
+    width: 10px;  
+    height: 10px;
+    background-color: #2b87f0;  
+    border-radius: 50%;
+    position: relative;
+    left: 0.25em;
+    z-index: 2;
+    top:0.25em;
+  }
+.work-side1{
+    top:4rem;
+}
+.work-side2{
+    top:15.8rem;
+}
+.work-side3{
+    top:27.8rem;
+}
+/* Timeline Journey Experience*/
+.timeline-journey{
+    line-height: 2em;
+    padding: 0 3rem;
+}
+.timeline-journey h2{
+    margin-top: 0;
+}
+.timeline-journey p{
+    margin: 0;
+}
+.timeline-journey-item1{
+    border-right: 0.25rem solid #acacac;
+    border-bottom: 0.25rem solid #acacac;
+    padding: 1rem 2rem 1.5rem 0;
+}
+.timeline-journey-item2{
+    border-left: 0.25rem solid #acacac;
+    border-bottom: 0.25rem solid #acacac;
+    padding: 1rem 0rem 1.5rem 2rem;
+}
+.timeline-journey-item3{
+    border-right: 0.25rem solid #acacac;
+    padding: 1rem 2rem 1.5rem 0;
+}

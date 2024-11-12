@@ -1,0 +1,255 @@
+    .experience {
+      margin-top: 1em;
+      position: relative;
+      padding: 20px;
+    } 
+    .experience h1{
+    margin-top: 0;
+    margin-bottom: 2.5rem;
+    } 
+    /** Journey Nav Bar**/
+    .journey-buttons {
+    display: flex;
+    justify-content: center; /* Center buttons horizontally */
+    gap: 2em; /* Add space between buttons */
+    margin-top: 20px; /* Add some spacing above the buttons */
+
+    }
+    .journey {
+      color: var(--primary-text-color);
+      background-color: transparent; /* Default background */
+      border: 2px solid var(--border-color);
+      padding: 10px 20px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      border-radius: 10px;
+      font-size: 0.8em;
+    }
+    .journey text{
+        font-size: 1.4em;
+    }
+    .journey.active {
+      background-color: rgb(100, 149, 237, 0.5); /* Change color when active */
+      border: 2px solid #ababac;
+    }
+    
+    /* Hover effect */
+    .journey:hover {
+      background-color: #6495edcc; /* Light blue with transparency */
+      border: 2px solid #ababac;
+    }
+
+   /** Years!**/
+    .layout {
+      position: relative;
+      margin: 2em auto 0 auto;
+      width: 33em;
+    }
+    .year.show {
+      display: block; /* Show the active year */
+    }
+
+    .year.hide {
+      display: none; /* Keep other years hidden */
+    }
+    .year {
+      display: none;
+      position: absolute;    /* Stack on top of each other */
+      top: 0;                /* Align at the top of the container */
+      left: 0;               /* Align to the left */
+      right: 0;              /* Stretch full width of parent */
+      padding: 20px 30px;
+      border: 2px solid var(--border-color);
+      border-radius: 10px;
+      line-height: 2em;
+      text-align: justify;
+      font-size: 0.8em;
+
+    }
+   /** Years 1 Style**/
+   .year-timeline{
+      margin-left: 0.5rem;
+      flex-direction: column;
+      display: flex;
+    }
+    .jobs{
+      position: relative;
+      padding: 1rem 0;
+    }
+    .year-timeline h2{
+      font-size: 1.2rem;
+      text-align: left;
+      font-weight: 500;
+      margin: 0;
+      color: cornflowerblue;
+      cursor: pointer;
+      
+    }
+    .year-timeline h3{
+      font-size: 1.4rem;
+      line-height: 1.75rem;
+      text-align: left;
+      font-weight: 700;
+      margin: 0;
+
+    }
+    .year-timeline a{
+      font-size: 0.875rem;
+      font-style: italic;
+      line-height: 1.5rem;
+      margin: 0;
+      color: var(--secondary-text-color);
+    }
+
+    .year-timeline p{
+      font-size: 1em;
+      line-height: 1.5rem;
+      margin: 0;
+    }
+
+    /* Timeline LINE Years 1 Style*/
+    .timeline {
+      position: relative;
+      padding-left: 2em; /* Create room for the timeline line and dots */
+      display: flex;
+      flex-direction: column;
+      margin-top: 1em;
+    }
+
+    .timeline-item {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 40px;
+      position: relative;
+    }
+
+    .timeline-item:last-child {
+      margin-bottom: 0;  /* Remove extra space at the bottom of the last item */
+    }
+    .timeline::after {
+      content: '';
+      position: absolute;
+      width: 2px;  /* Thickness of the vertical line */
+      height: 22rem;  /* Full height of the timeline container */
+      background: #cfcfcf;
+      left: 0.58em;  /* Align with circles */    
+      top: 4em;
+      z-index: 0;
+    }
+    /* Timeline CIRCLES Years 1 Style*/
+    .side1{
+      top:3.5rem;
+    }
+    .side2{
+      top:15.8rem;
+    }
+    .side3{
+      top:25rem;
+    }
+    .circle {
+      width: 16px;  
+      height: 16px;
+      background-color: #cfcfcf;  
+      border-radius: 50%;
+      position: absolute;
+      left: -30px;
+      z-index: 1;
+    }
+    .inner-circle {
+      width: 8px;  
+      height: 8px;
+      background-color: #2b87f0;  
+      border-radius: 50%;
+      position: relative;
+      left: 0.25em;
+      z-index: 2;
+      top:0.25em;
+    }
+    /* Timeline LINE Years 2 Style*/
+    .timeline-a {
+      position: relative;
+      padding-left: 2em; /* Create room for the timeline line and dots */
+      display: flex;
+      flex-direction: column;
+      margin-top: 1em;
+    }
+    .timeline-a::after {
+      content: '';
+      position: absolute;
+      width: 2px;  /* Thickness of the vertical line */
+      height: 20rem;  /* Full height of the timeline container */
+      background: #cfcfcf;
+      left: 0.58em;  /* Align with circles */    
+      top: 4em;
+      z-index: 0;
+    }
+    /* Timeline CIRCLES Years 2 Style*/
+    .side1-a{
+      top:3.5rem;
+    }
+    .side2-a{
+      top:12.8rem;
+    }
+    .side3-a{
+      top: 23.5rem;
+    }
+    /* Timeline LINE Years 3 Style*/
+    .timeline-b {
+      position: relative;
+      padding-left: 2em; /* Create room for the timeline line and dots */
+      display: flex;
+      flex-direction: column;
+      margin-top: 1em;
+    }
+
+    .timeline-b::after {
+      content: '';
+      position: absolute;
+      width: 2px;  /* Thickness of the vertical line */
+      height: 9rem;  /* Full height of the timeline container */
+      background: #cfcfcf;
+      left: 0.58em;  /* Align with circles */    
+      top: 4em;
+      z-index: 0;
+    }
+    /* Timeline CIRCLES Years 3 Style*/
+    .side1-b{
+      top:3.5rem;
+    }
+    .side2-b{
+      top:12.8rem;
+    }
+    /* Timeline LINE Years 4 Style*/
+    .timeline-c {
+      position: relative;
+      padding-left: 2em; /* Create room for the timeline line and dots */
+      display: flex;
+      flex-direction: column;
+      margin-top: 1em;
+    }
+
+    .timeline-c::after {
+      content: '';
+      position: absolute;
+      width: 2px;  /* Thickness of the vertical line */
+      height: 31rem;  /* Full height of the timeline container */
+      background: #cfcfcf;
+      left: 0.58em;  /* Align with circles */    
+      top: 4em;
+      z-index: 0;
+    }
+    /* Timeline CIRCLES Years 4 Style*/
+    .side1-c{
+      top:3.5rem;
+    }
+    .side2-c{
+      top:15.8rem;
+    }
+    .side3-c{
+      top:25rem;
+    }
+    .side4-c{
+      top:34.2rem;
+    }
+
+

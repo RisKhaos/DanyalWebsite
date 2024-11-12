@@ -1,0 +1,60 @@
+/* Apply the background color to the body */
+body {
+  background-color: var(--background-color);
+  color: var(--primary-text-color);
+  transition: background-color 0.3s ease; /* Smooth transition effect */
+  font-size:  125% ;
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  cursor: default; 
+}
+.app{
+  background-color: var(--background-color);
+}
+.content {
+  margin-bottom: 2rem;
+  max-width: 50rem;
+  margin: 0 auto;
+  font-family: var(--font-sans);
+  margin-top: 4rem;
+  line-height: 2.5rem;
+  color: var(--primary-text-color);
+}
+footer {
+  max-width: 60rem;
+  padding-top: 1rem;
+  margin: 0 auto 2rem;
+  text-align: center;
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  border-top: 1px solid #313131;
+  margin-top: 5rem;
+  color: var(--primary-text-color);
+}
+footer a{
+text-decoration: none;
+color: cornflowerblue;
+}
+footer a:hover{
+  text-decoration:underline;
+  }
+  /* ROOT MODE VARIABLE */
+:root{
+  --background-color: #faeccd;
+  --primary-text-color: #192f52;
+  --secondary-text-color: #a08857;
+  --border-color: #ffffff;
+  --toggle-bg: #f0eb9d;
+  --toggle-fg: #ffd000;
+
+}
+    /* DARK MODE VARIABLE */
+[data-theme="dark"] {
+  --background-color: #111111;
+  --primary-text-color: #ebebeb;
+  --secondary-text-color: #9ca3af;
+  --border-color: #27272a;
+  --toggle-bg: #283452;
+  --toggle-fg: #6495ed;
+}
