@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/DanyalWebsite/static/css/main.7a33a31c.css",
+    "main.js": "/DanyalWebsite/static/js/main.b0c8de6f.js",
+    "static/js/453.195b869a.chunk.js": "/DanyalWebsite/static/js/453.195b869a.chunk.js",
+    "static/media/RokApp2.png": "/DanyalWebsite/static/media/RokApp2.62be8091157489e4e45d.png",
+    "static/media/RokApp1.png": "/DanyalWebsite/static/media/RokApp1.c1dc5d6aa2042a34c04a.png",
+    "static/media/PokemonApp.png": "/DanyalWebsite/static/media/PokemonApp.756f8d3a7e7a2295bfe6.png",
+    "static/media/roklogo.png": "/DanyalWebsite/static/media/roklogo.1d67ebd2779e7b13ed80.png",
+    "static/media/charmander.svg": "/DanyalWebsite/static/media/charmander.5a71089c02df170a4e752f325bbbc5db.svg",
+    "static/media/jquery.svg": "/DanyalWebsite/static/media/jquery.36cbfcc38f11c5ee7afc90cf29268f27.svg",
+    "static/media/node-js.svg": "/DanyalWebsite/static/media/node-js.f3df4ad42c5bb547974b53aced8faf90.svg",
+    "static/media/typescript.svg": "/DanyalWebsite/static/media/typescript.41ddd6d5bf564ca7b951abf48d18c5b2.svg",
+    "static/media/ux-design.svg": "/DanyalWebsite/static/media/ux-design.6171596eae1cda563ff0099794f1d15f.svg",
+    "static/media/user-research.svg": "/DanyalWebsite/static/media/user-research.0134d51b463610d9fe299db4930d7826.svg",
+    "static/media/illustrator.svg": "/DanyalWebsite/static/media/illustrator.97d14ab3dbf0abda100deb641053217d.svg",
+    "static/media/davinci-resolve.svg": "/DanyalWebsite/static/media/davinci-resolve.a3a99bcf277571985613ef6e9778a09f.svg",
+    "static/media/photoshop.svg": "/DanyalWebsite/static/media/photoshop.d797c833dd5caaa3cab9f7f122c37a0d.svg",
+    "static/media/react.svg": "/DanyalWebsite/static/media/react.6305a7638f30187299eee1519f716993.svg",
+    "static/media/discord.svg": "/DanyalWebsite/static/media/discord.c1ef780f93e91fa67b187f76efe6480e.svg",
+    "static/media/php.svg": "/DanyalWebsite/static/media/php.c6b35ad19ec9d6d7a5bba1a9ff3bc559.svg",
+    "static/media/javascript.svg": "/DanyalWebsite/static/media/javascript.2981e41ff7c2e85b0a5ed642ba73478c.svg",
+    "static/media/google-analytics.svg": "/DanyalWebsite/static/media/google-analytics.9f7b691844f36e667ef848a3dbb42a31.svg",
+    "static/media/html.svg": "/DanyalWebsite/static/media/html.4c972fed627e763ef6b9776a522d2ee8.svg",
+    "static/media/figma.svg": "/DanyalWebsite/static/media/figma.83721b34c83138f21aa3c0ae69ce487b.svg",
+    "static/media/css.svg": "/DanyalWebsite/static/media/css.4d0419e8f34328b9b5c2059f4274c4a4.svg",
+    "static/media/vite.svg": "/DanyalWebsite/static/media/vite.1ca29e1ac25431e5ac7dac1b310215ce.svg",
+    "index.html": "/DanyalWebsite/index.html",
+    "static/media/git.svg": "/DanyalWebsite/static/media/git.021e36ba310a31d69ebdd12ea08a412e.svg",
+    "static/media/office.svg": "/DanyalWebsite/static/media/office.496cc8088651e85cb1d03b91f0209e6d.svg",
+    "main.7a33a31c.css.map": "/DanyalWebsite/static/css/main.7a33a31c.css.map",
+    "main.b0c8de6f.js.map": "/DanyalWebsite/static/js/main.b0c8de6f.js.map",
+    "453.195b869a.chunk.js.map": "/DanyalWebsite/static/js/453.195b869a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7a33a31c.css",
+    "static/js/main.b0c8de6f.js"
+  ]
+}
