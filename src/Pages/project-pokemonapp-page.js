@@ -46,7 +46,7 @@ const PokemonApp = () => {
                 {/* Project Description*/}
             <p>A web application to search and explore Pokémon details</p>
                 {/* Open Project*/}
-            <a href="#/ProjectPage">
+            <a href="https://riskhaos.github.io/PokemonApp-RisKhaos/">
                 <button className='open-Project' >
                   Open ➤
                 </button>

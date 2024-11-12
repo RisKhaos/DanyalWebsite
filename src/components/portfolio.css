@@ -111,6 +111,9 @@
     color: aliceblue;
 }
 /*More Projects Button*/
+.more-projects{
+    margin-top: 1em;
+}
 .more-projects a{
     color: #6495ed;
     text-decoration: none;
