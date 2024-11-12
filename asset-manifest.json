@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/DanyalWebsite/static/css/main.075a889b.css",
-    "main.js": "/DanyalWebsite/static/js/main.29aac7ff.js",
+    "main.js": "/DanyalWebsite/static/js/main.d73f1a79.js",
     "static/js/453.195b869a.chunk.js": "/DanyalWebsite/static/js/453.195b869a.chunk.js",
     "static/media/RokApp2.png": "/DanyalWebsite/static/media/RokApp2.62be8091157489e4e45d.png",
     "static/media/RokApp1.png": "/DanyalWebsite/static/media/RokApp1.c1dc5d6aa2042a34c04a.png",
@@ -29,11 +29,11 @@
     "static/media/git.svg": "/DanyalWebsite/static/media/git.021e36ba310a31d69ebdd12ea08a412e.svg",
     "static/media/office.svg": "/DanyalWebsite/static/media/office.496cc8088651e85cb1d03b91f0209e6d.svg",
     "main.075a889b.css.map": "/DanyalWebsite/static/css/main.075a889b.css.map",
-    "main.29aac7ff.js.map": "/DanyalWebsite/static/js/main.29aac7ff.js.map",
+    "main.d73f1a79.js.map": "/DanyalWebsite/static/js/main.d73f1a79.js.map",
     "453.195b869a.chunk.js.map": "/DanyalWebsite/static/js/453.195b869a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.075a889b.css",
-    "static/js/main.29aac7ff.js"
+    "static/js/main.d73f1a79.js"
   ]
 }
