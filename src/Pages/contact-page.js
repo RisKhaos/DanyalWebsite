@@ -3,6 +3,7 @@ import '../App.css'; // Import your main CSS
 import '../components/card.css'; // Import Card CSS file
 import './contact-page.css';
 import discordlogo from '../components/images/logos/discord.svg';
+import pdflogo from '../components/images/logos/pdf.png';
 
 const Contact = () => {// Import Card CSS file
   return (
@@ -23,21 +24,21 @@ const Contact = () => {// Import Card CSS file
                 <a>R is Khaos</a>
               </div>
             </a>
-            <a href="https://shorturl.at/l6Fzd">
+            <a href="https://discord.gg/tWH8sVwbXH">
               <div className='socials-content'>
-                <img src='https://shorturl.at/VG0bd'></img>
+                <img src={discordlogo}></img>
                 <a>RelaxItsDany</a>
               </div>
 
             </a>
             <a href="https://discord.gg/tWH8sVwbXH">
               <div className='socials-content'>
-                <img src={discordlogo}></img>
-                <a>RelaxItsDany</a>
+                <img src={pdflogo}></img>
+                <a>Danyal Freitas</a>
               </div>
             </a>
           </div>
-            <span>You can find me on LinkedIn, Github, Twitch and Discord. 
+            <span>You can find me in the links above or via email to Danyal1017@gmail.com 
               <p>I usually respond within a day.</p>
             </span>
       </div>
