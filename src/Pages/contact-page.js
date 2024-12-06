@@ -31,7 +31,7 @@ const Contact = () => {// Import Card CSS file
               </div>
 
             </a>
-            <a href="src/components/images/CV_Danyal_Freitas_vB.pdf">
+            <a href="https://github.com/RisKhaos/DanyalWebsite/blob/main/src/components/images/CV_Danyal_Freitas_vB.pdf" type="application/pdf">
               <div className='socials-content'>
                 <img src={cvlogo}></img>
                 <a>Danyal K. Freitas</a>
