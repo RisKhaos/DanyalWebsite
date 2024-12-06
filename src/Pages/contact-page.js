@@ -3,7 +3,7 @@ import '../App.css'; // Import your main CSS
 import '../components/card.css'; // Import Card CSS file
 import './contact-page.css';
 import discordlogo from '../components/images/logos/discord.svg';
-import pdflogo from '../components/images/logos/pdf.png';
+import cvlogo from '../components/images/logos/cv.svg';
 
 const Contact = () => {// Import Card CSS file
   return (
@@ -31,9 +31,9 @@ const Contact = () => {// Import Card CSS file
               </div>
 
             </a>
-            <a href="https://discord.gg/tWH8sVwbXH">
+            <a href="file:///C:/Users/danya/my-website/src/components/images/CV_Danyal_Freitas_vB.pdf">
               <div className='socials-content'>
-                <img src={pdflogo}></img>
+                <img src={cvlogo}></img>
                 <a>Danyal Freitas</a>
               </div>
             </a>
