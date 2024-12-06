@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/DanyalWebsite/static/css/main.075a889b.css",
-    "main.js": "/DanyalWebsite/static/js/main.69fd9750.js",
+    "main.js": "/DanyalWebsite/static/js/main.1659b01f.js",
     "static/js/453.195b869a.chunk.js": "/DanyalWebsite/static/js/453.195b869a.chunk.js",
     "static/media/RokApp2.png": "/DanyalWebsite/static/media/RokApp2.62be8091157489e4e45d.png",
     "static/media/RokApp1.png": "/DanyalWebsite/static/media/RokApp1.c1dc5d6aa2042a34c04a.png",
     "static/media/PokemonApp.png": "/DanyalWebsite/static/media/PokemonApp.756f8d3a7e7a2295bfe6.png",
     "static/media/roklogo.png": "/DanyalWebsite/static/media/roklogo.1d67ebd2779e7b13ed80.png",
     "static/media/charmander.svg": "/DanyalWebsite/static/media/charmander.5a71089c02df170a4e752f325bbbc5db.svg",
-    "static/media/pdf.png": "/DanyalWebsite/static/media/pdf.269a8f7c55fe2a63438d.png",
+    "static/media/cv.svg": "/DanyalWebsite/static/media/cv.fa9c3a6c5bfb9fc037bd2fa7a482694c.svg",
     "static/media/jquery.svg": "/DanyalWebsite/static/media/jquery.36cbfcc38f11c5ee7afc90cf29268f27.svg",
     "static/media/node-js.svg": "/DanyalWebsite/static/media/node-js.f3df4ad42c5bb547974b53aced8faf90.svg",
     "static/media/typescript.svg": "/DanyalWebsite/static/media/typescript.41ddd6d5bf564ca7b951abf48d18c5b2.svg",
@@ -30,11 +30,11 @@
     "static/media/git.svg": "/DanyalWebsite/static/media/git.021e36ba310a31d69ebdd12ea08a412e.svg",
     "static/media/office.svg": "/DanyalWebsite/static/media/office.496cc8088651e85cb1d03b91f0209e6d.svg",
     "main.075a889b.css.map": "/DanyalWebsite/static/css/main.075a889b.css.map",
-    "main.69fd9750.js.map": "/DanyalWebsite/static/js/main.69fd9750.js.map",
+    "main.1659b01f.js.map": "/DanyalWebsite/static/js/main.1659b01f.js.map",
     "453.195b869a.chunk.js.map": "/DanyalWebsite/static/js/453.195b869a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.075a889b.css",
-    "static/js/main.69fd9750.js"
+    "static/js/main.1659b01f.js"
   ]
 }
